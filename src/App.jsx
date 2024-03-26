@@ -6,9 +6,11 @@ import MyButton from './components/MyButton'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [categories, setCategories] = useState([]);
 
   return (
     <>
+      {categories}
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
